@@ -1,0 +1,7 @@
+Coloque aqui o seu modelo 3D com o nome:
+
+modelo.glb
+
+O site também aceita .gltf pelo botão "Carregar modelo GLB/GLTF", mas para publicação automática o ideal é usar .glb.
+
+Depois de colocar o arquivo, publique a pasta inteira.

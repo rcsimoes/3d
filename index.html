@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Meu Projeto 3D — Three.js</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">MEU PROJETO <span>3D</span></div>
+    <nav><a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a><a href="#contato">Contato</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EXPERIÊNCIA 3D INTERATIVA</p>
+        <h1>Um trabalho para ser <em>explorado</em>.</h1>
+        <p class="intro">Apresente seu objeto, personagem, cenário ou protótipo em 3D diretamente no navegador, sem instalação.</p>
+        <a class="button" href="#experiencia">Explorar em 3D ↓</a>
+      </div>
+      <div class="hero-card">
+        <div id="hero-canvas"></div>
+        <div class="hint">Arraste para girar · roda para aproximar</div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <p class="eyebrow">SOBRE O PROJETO</p>
+      <h2>Concepção, forma e movimento.</h2>
+      <p class="text">Este espaço pode apresentar o conceito do trabalho, seu processo de criação, referências, materiais e contexto. Substitua este texto pelas informações do seu projeto.</p>
+    </section>
+
+    <section id="experiencia" class="viewer-section">
+      <div class="viewer-header">
+        <div>
+          <p class="eyebrow">MODELO INTERATIVO</p>
+          <h2>Explore o objeto</h2>
+        </div>
+        <label class="upload">
+          <input id="modelInput" type="file" accept=".glb,.gltf">
+          Carregar modelo GLB/GLTF
+        </label>
+      </div>
+      <div class="viewer">
+        <canvas id="scene"></canvas>
+        <div class="viewer-help">🖱 Arraste · 🔍 Zoom · 2 dedos no celular</div>
+        <div id="loading">Carregando experiência…</div>
+      </div>
+    </section>
+
+    <section class="section cards">
+      <article><span>01</span><h3>Modelagem</h3><p>Apresente como o objeto foi concebido e construído.</p></article>
+      <article><span>02</span><h3>Animação</h3><p>Mostre movimento, ciclos, personagens ou mecanismos.</p></article>
+      <article><span>03</span><h3>Processo</h3><p>Inclua imagens, vídeos e etapas do desenvolvimento.</p></article>
+    </section>
+
+    <section id="contato" class="contact">
+      <p class="eyebrow">CONTATO</p>
+      <h2>Vamos conversar sobre o projeto?</h2>
+      <p>Substitua este endereço pelo seu e-mail ou link de portfólio.</p>
+      <a class="button" href="mailto:seuemail@exemplo.com">Entrar em contato</a>
+    </section>
+  </main>
+
+  <footer>© 2026 Seu Nome · Experiência criada com Three.js</footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
